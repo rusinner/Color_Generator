@@ -3,5 +3,56 @@
   padding: 0;
   box-sizing: border-box;
 }
-.App {
+.container {
+  display: flex;
+  width: 90%;
+  height: 20vh;
+  margin-left: 3rem;
+  margin-top: 2.8rem;
+  column-gap: 5rem;
+  text-transform: capitalize;
+}
+.container h3 {
+  font-size: 2.5rem;
+  background: -webkit-radial-gradient(
+    rgb(46, 176, 185),
+    rgb(32, 98, 212),
+    rgb(32, 212, 77),
+    rgb(160, 29, 212)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.container input {
+  border: none;
+  outline: none;
+  background: rgb(123, 178, 225);
+  width: 12rem;
+  height: 2rem;
+  font-size: 1.3rem;
+  padding-left: 0.4rem;
+  margin-top: 1rem;
+  color: azure;
+  letter-spacing: 3px;
+}
+
+.btn {
+  position: absolute;
+  background: rgb(123, 178, 225);
+  border: none;
+  outline: none;
+  width: 6rem;
+  height: 2rem;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  color: #fff;
+  text-transform: capitalize;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.btn:hover {
+  letter-spacing: 1px;
+}
+input.error {
+  border: 2px solid red;
 }
