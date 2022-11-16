@@ -81,6 +81,17 @@ input.error {
 .color-light {
   color: #fff;
 }
+.alert {
+  background: transparent;
+  color: #333;
+  margin-left: 0.4rem;
+  margin-top: 0.4rem;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+}
+.color {
+  cursor: pointer;
+}
 
 @media screen and (max-width: 882px) {
   .colors {
